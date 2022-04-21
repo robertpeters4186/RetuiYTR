@@ -7,7 +7,6 @@ on:
 jobs:
   update-asf:
     name: Update ASF APIs
-    runs-on: ubuntu-latest
     steps:
       - name: Checkout Open Source
         uses: actions/checkout@v2
